@@ -1,0 +1,44 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+    width: 350px;
+    border-radius: 12px;
+
+}
+
+.form .ep {
+    width: 250px;
+    padding: 10px 5px;
+    margin: .6rem 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    
+}
+
+.checkbox_container {
+    margin: 10px;
+}
+
+.form button {
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: rgb(90, 22, 138);
+    padding: 0.5rem 1.1rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: .5rem;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.form .email{
+    margin-top: 3rem;
+}
+
+.checkbox {
+    width: 20px;
+}
